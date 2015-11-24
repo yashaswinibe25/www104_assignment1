@@ -1,0 +1,166 @@
+li
+{
+ list-style:none;
+}
+nav ul li
+{
+  margin:2% 2%;   
+}
+nav ul li a
+{
+ padding:15px 15px; 
+  text-transform: uppercase;
+    font-size:1.4em;
+    color:black;
+    font-weight:bold;
+    border-radius:10px;
+    font-family: 'pt_sans_captionbold';
+}
+
+h1,h2,h3,h4
+{
+ text-transform:uppercase;
+    font-size:1.4em;
+    font-weight:bold;
+   font-family: 'pt_sans_captionbold'; 
+    
+}
+main p
+{
+border-bottom:5px solid #A92125;
+    padding:10px;
+    font-size:1.4em;
+    text-transform: uppercase;
+    font-style:italic;
+}
+.divide
+{
+ width:50%;
+    height:5px;
+    background-color:#A92125;
+   margin:auto;
+}
+footer
+{
+ background:#FCCB3E;
+    height:80px;
+    margin-top:2%;
+    padding:0;
+}
+footer p
+{
+ line-height:80px; 
+ font-family: 'josefin_slabsemibold';
+}
+section,article,p
+{
+ font-family: 'josefin_slabsemibold'; 
+    font-size:18px;
+}
+
+@font-face {
+    font-family: 'josefin_slabsemibold';
+    src: url('font2/josefinslab-semibold-webfont.eot');
+    src: url('font2/josefinslab-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font2/josefinslab-semibold-webfont.woff2') format('woff2'),
+         url('font2/josefinslab-semibold-webfont.woff') format('woff'),
+         url('font2/josefinslab-semibold-webfont.ttf') format('truetype'),
+         url('font2/josefinslab-semibold-webfont.svg#josefin_slabsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pt_sans_captionbold';
+    src: url('font1/ptc75f-webfont.eot');
+    src: url('font1/ptc75f-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font1/ptc75f-webfont.woff2') format('woff2'),
+         url('font1/ptc75f-webfont.woff') format('woff'),
+         url('font1/ptc75f-webfont.ttf') format('truetype'),
+         url('font1/ptc75f-webfont.svg#pt_sans_captionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-----------------------bootstrap modification --------------------------------*/
+
+
+.container
+{
+ width:1200px;
+    margin:auto;   
+}
+.navbar-default 
+{
+    background-color:#F2B349/*#FCCB3E*/;
+    border-color: #e7e7e7;
+    box-shadow:5px 5px 5px 5px #F1573B/*#BF2F27*/;
+}
+.carousel-control.left {
+  background-image:none;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.carousel-control
+{
+    color:black;
+}
+.carousel
+{
+  margin:1%;   
+}
+.carousel-inner img
+{
+border:5px solid black;
+}
+.glyphicon-home
+{
+  font-size:2em;  
+}
+.glyphicon-map-marker 
+{
+ font-size:2em; 
+    margin-right:1%;
+}
+.glyphicon-envelope ,.glyphicon-earphone
+{
+ font-size:1em; 
+     margin-right:1%;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: 500px;
+    max-width: 100%;
+    margin-bottom:2%;
+}
+
+
+@media screen and (max-width:760px)
+    {
+       .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: 200px;
+    max-width: 100%;
+    margin-bottom:2%;
+} 
+        
+        
+    }
+@media screen and (max-width:300px)
+    
+    {
+        body
+        {
+         font-size:1em;   
+        }
+        
+    }
